@@ -1,0 +1,161 @@
+* {
+   font-family: 'Comic Neue', sans-serif;
+   padding:0;
+   margin:0;
+   letter-spacing: 1px;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+.topBar {
+   background-color: rgb(200,200,200);
+   width: 60%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   align-self: center;
+   justify-content: space-between;
+   padding: 1% 4%;
+   margin-bottom: 3%;
+}
+
+#searchBar {
+   width: 50%;
+   line-height: 2.5;
+   border: 2px solid black;
+   padding: 0 1%;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+#login {
+   padding: 0.7% 3%;
+   font-size: 20px;
+   background-color: rgb(0, 85, 255);
+   color: rgb(255,255,255);
+   font-weight: 700;
+   letter-spacing: 1px;
+   box-shadow: 3px 3px rgb(0,0,0) ;
+   border: 3px solid black;
+}
+
+#login:hover {
+   cursor:pointer;
+}
+
+/* CONTAINER */
+.container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-self: center;
+   width: 71%;
+}
+
+/* CENTER COLUMN */
+.column {
+   display: flex;
+   flex-direction: column;
+   padding: 0 2%;
+}
+
+.center {
+   width: 55%;
+}
+
+/* DEFINITION CARD */
+.def-card {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2% 1%;
+   border: 3px solid black;
+}
+
+.word-box {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   align-items: center;
+   justify-content: center;
+   margin-right: 5%;
+}
+
+.word {
+   font-size: 2.5rem;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.grammar {
+   font-size: 22px;
+   font-weight: 500;
+   padding: 5% 0;
+}
+
+.plural {
+   padding: 2% 0 7% 0;
+   font-weight: 500;
+}
+
+.likeBtn {
+   margin: 10% 0 10% 0;
+   background-color: rgb(255, 215, 110);
+   color: black;
+   box-shadow: 3px 3px black;
+   border: 3px solid black;
+   font-size: 18px;
+   font-weight: 700;
+   padding: 3% 5%;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+
+.definitionContainer {
+   max-width: 70%;
+}
+
+.definition {
+   font-size: 26px;
+   font-weight:500;
+   line-height: 1.2;
+   padding-right: 3%;
+}
+
+.gap {
+   margin-top: 5%;
+}
+
+/* RIGHT COLUMN */
+.right {
+   width: 35%;
+}
+.addContainer {
+   padding: 2% 4%;
+}
+
+.involve  {
+   font-size: 2.5rem;
+   font-weight: 500;
+   width: 95%;
+   margin-bottom: 7%;
+}
+
+.you {
+   font-weight: 700;
+}
+
+#addDefinition {
+   background-color: rgb(130, 190, 130);
+   border: 2px solid black;
+   box-shadow: 3px 3px black;
+   padding: 2% 0;
+   width: 100%;
+   font-size: 30px;
+   font-weight: 500;
+   cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Button Clicker</title>
+</head>
+<body>
+   <div class="topBar">
+      <h1 class="logo">Dojonary</h1>
+      <input type="text" name="searchBar" id="searchBar" placeholder="Search">
+      <button id="login" onclick="changeButton()">Login</button>
+   </div>
+   <div class="container">
+      <!-- CENTER COLUMN -->
+      <div class="column center">
+         <div class="def-card">
+            <div class="word-box">
+               <p class="word">ninja</p>
+               <p class="grammar">noun</p>
+               <p class="plural">Plural: ninjas</p>
+               <button class="likeBtn" onclick="liked()">13 Likes</button>
+            </div>
+            <div class="definitionContainer">
+               <p class="definition">A practitioner skilled in the <a href="#Japanese" class="defLink">Japanese</a> art of <a href="#Ninjutsu" class="defLink">ninjutsu</a></p>
+            </div>
+         </div>
+         <div class="def-card gap">
+            <div class="word-box">
+               <p class="word">ninja</p>
+               <p class="grammar">noun</p>
+               <p class="plural">Plural: ninjas</p>
+               <button class="likeBtn" onclick="liked()">37 Likes</button>
+            </div>
+            <div class="definitionContainer">
+               <p class="definition">A <a href="#Programmer" class="defLink">Programmer</a> who breaks down problems with <a href="#Ninjutsu" class="defLink">zen</a>-like focuse</p>
+            </div>
+         </div>
+      </div>
+      <!-- RIGHT COLUMN -->
+      <div class="right column">
+         <div class="def-card">
+            <div class="addContainer">
+               <h1 class="involve">Dojonary is defined by <span class="you">YOU</span></h1>
+               <button id="addDefinition" onclick="remove()">Add Definition</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<script src="main.js"></script>
+</body>
+</html>
